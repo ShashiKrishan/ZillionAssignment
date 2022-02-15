@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zillion Intern</title>
+</head>
+<body>
+    <h1> CRUD APPLICATION</h1>
+
+        <form  action="{{url_for('insert')}}" method="POST" >
+            <p>Employee Name <input type="text" name="emp_name" required/> </p>
+            <p>Employee Address <input type="text" name="emp_address" required/> </p>
+            <p>Designation <input type="text" name="designation" required/> </p>
+            <p>Date Of Birth <input type="date" name="dob" required/> </p>
+            <p>Telephone<input type="text" name="telephone" required/> </p>
+            <p>E-mail<input type="email" name="email" required/> </p>
+            <p><input type="submit" value= "Submit"/> </p>
+        </form>
+</body>
+</html>
